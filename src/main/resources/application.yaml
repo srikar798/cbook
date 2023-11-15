@@ -1,0 +1,5 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://dpg-ckk98iglk5ic739dcue0-a.oregon-postgres.render.com/srikar_db
+    username: dbuser
+    password: 7pSYUDRCEsqByV3o4VkxRiZQ960QQgFx
