@@ -4,4 +4,4 @@ COPY . /home/cbook
 RUN cd /home/cbook && mvn package
 RUN cp /home/cbook/target/*.jar cbook.jar
 ENTRYPOINT [ "java","-jar","cbook.jar" ]
-EXPOSE 8089
+EXPOSE 8086
